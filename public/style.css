@@ -1,0 +1,42 @@
+.designer-list-top, .designer-list-bottom {
+    width: 15px;
+    height: 15px;
+    border-bottom: 1px solid #9ea0a3;
+    border-left: 1px solid #9ea0a3;
+    margin: auto;
+    cursor: pointer;
+ 
+}
+ 
+.designer-list-top {
+    transform: rotate(135deg);
+}
+.designer-list-bottom {
+    transform: rotate(-45deg);
+}
+ 
+.designer-list {
+    overflow: hidden;
+    max-height:260px;
+     position:relative;
+ 
+    ul {
+        list-style: none;
+        padding:0;
+        text-align: center;
+        position:relative;
+ 
+        li {
+        padding:2px 0;
+            a {
+                font-family: Conv_FuturaDemiC;
+                color: #9ea0a3;
+                text-decoration: none;
+                text-transform: uppercase;
+                &:hover {
+                     color: #2e2e2e;
+                 }
+            }
+        }
+    }
+}
